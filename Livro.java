@@ -10,7 +10,7 @@ public class Livro {
         this.titulo = titulo;
         this.autor = autor;
         this.editora = editora;
-        this.disponivel = true; // Todos os livros são inicializados como disponíveis
+        this.disponivel = true; 
     }
 
     public String getTitulo() {
