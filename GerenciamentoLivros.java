@@ -4,5 +4,6 @@ public interface GerenciamentoLivros {
     void adicionarLivro();
     void removerLivro();
     void listarLivros();
-    boolean verificarLivro();
+    boolean verificarLivro(String titulo);
+
 }

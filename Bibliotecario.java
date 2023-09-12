@@ -8,11 +8,9 @@ public class Bibliotecario extends Pessoa{
     }
 
     @Override
-    public void pegarLivro(Livro livro) {
-        System.out.println(getNome() + " registrou o empréstimo do livro: " + livro.getTitulo());
+    public void emprestarLivro(Biblioteca biblioteca) {
     }
     @Override
-    public void devolverLivro(Livro livro) {
-        System.out.println(getNome() + " registrou a devolução do livro: " + livro.getTitulo());
+    public void devolverLivro(Biblioteca biblioteca ) {
     }
 }
